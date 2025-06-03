@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO LIST</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="stat-conatiner">
+            <div class="intro-conatiner">
+                <h1>TODO LIST</h1>
+                <p>keep it up!</p>
+                <div id="progress-bar">
+                    <div id="progress-level">
+                    </div>
+                </div>
+            </div>
+            <div class="stat-circle">
+                <p id="score">0/0</p>
+            </div>
+        </div>
+        <div class="task-form">
+        <form action="">
+            <input type="text" placeholder="write your task here!" id="taskinput">
+            <button type="submit" id="btn">+</button>
+        </form>
+        <div class="added-list">
+            <ul class="task-list"></ul>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+</body>
+</html>
